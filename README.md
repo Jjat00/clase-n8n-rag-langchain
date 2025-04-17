@@ -394,3 +394,7 @@ $$;
 ```
 
 **Nota**: Asegúrate de que el nombre de la tabla (`documentos_rag_2`) y el nombre de la función (`match_documents_lc`) coincidan con los usados en tu código Python (`create_db.py` y `chatbot.py`). La dimensión del vector (`vector(1536)`) debe coincidir con la salida del modelo de embeddings que uses (p.ej., `text-embedding-ada-002` de OpenAI usa 1536).
+
+### Ejemplo respuesta bot en telegram:
+
+![Ejemplo bot](images/ejemplo_respuseta_bot.png)
