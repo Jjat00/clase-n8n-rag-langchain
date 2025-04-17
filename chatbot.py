@@ -72,10 +72,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     logger.info("🔍 Query: %s", text)
 
-    # docs = retriever.get_relevant_documents(text)
-    # print("docs", docs)
-    # if not docs:
-    #     answer = "Disculpa, no tengo información relevante para esa consulta."
     try:
         response = await qa_chain.ainvoke({"query": text}, return_only_outputs=True)
         answer = response["result"]
