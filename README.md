@@ -4,20 +4,6 @@ Este proyecto reproduce el mismo flujo de procesamiento e ingestión de document
 
 ---
 
-## 📄 Contenido
-
-- [Descripción](#descripción)
-- [Flujo n8n vs LangChain](#flujo-n8n-vs‑langchain)
-  - [1) Ingestión de documentos](#1-ingestión-de-documentos)
-  - [2) Chatbot de Telegram](#2-chatbot-de-telegram)
-- [Requisitos](#requisitos)
-- [Instalación](#instalación)
-- [Configuración](#configuración)
-- [Ejecución](#ejecución)
-- [Estructura de archivos](#estructura-de-archivos)
-
----
-
 ## 📖 Descripción
 
 El proyecto se divide en dos partes principales:
