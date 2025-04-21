@@ -52,7 +52,7 @@ Este proceso prepara los datos para que el chatbot pueda consultarlos.
 3.  **`OpenAIEmbeddings` (Embeddings OpenAI)**: Genera vectores (embeddings) para cada fragmento de texto utilizando los modelos de embedding de OpenAI.
 4.  **`SupabaseVectorStore.add_documents` (Insert Documents en Supabase)**: Almacena los fragmentos de texto originales junto con sus embeddings correspondientes en una tabla de Supabase configurada para búsquedas vectoriales.
 
-En Python (`create_db.py`):
+En Python (`embed_and_store_db.py`):
 
 ```python
 import dotenv
@@ -393,7 +393,7 @@ $$;
 
 ```
 
-**Nota**: Asegúrate de que el nombre de la tabla (`documentos_rag_2`) y el nombre de la función (`match_documents_lc`) coincidan con los usados en tu código Python (`create_db.py` y `chatbot.py`). La dimensión del vector (`vector(1536)`) debe coincidir con la salida del modelo de embeddings que uses (p.ej., `text-embedding-ada-002` de OpenAI usa 1536).
+**Nota**: Asegúrate de que el nombre de la tabla (`documentos_rag_2`) y el nombre de la función (`match_documents_lc`) coincidan con los usados en tu código Python (`embed_and_store_db.py` y `chatbot.py`). La dimensión del vector (`vector(1536)`) debe coincidir con la salida del modelo de embeddings que uses (p.ej., `text-embedding-ada-002` de OpenAI usa 1536).
 
 ### Ejemplo respuesta bot en telegram:
 
