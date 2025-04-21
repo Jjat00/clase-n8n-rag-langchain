@@ -21,7 +21,7 @@ El proyecto se divide en dos partes principales:
     4. Almacena en Supabase Vector Store.
 
 2.  Bot de telegram
-    1. Tigger de mensaje
+    1. Trigger de mensaje
     2. Question and answer chain
     3. Consulta a supabase
     4. Enviar mensaje de respuesta
